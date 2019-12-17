@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Master</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body class="d-flex justify-content-center">
+        <div class="col-sm-12 ">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">About</a>
+                    </nav>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="col-sm-6">
+                    <h1>Welcome to MyApp</h1>
+                    {% block content %}{% endblock %}
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque magni aperiam praesentium, ducimus voluptatem blanditiis totam perferendis, ab mollitia facilis porro expedita rerum placeat inventore asperiores dolorum quidem. Facilis, ullam?</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

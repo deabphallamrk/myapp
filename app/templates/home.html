@@ -1,0 +1,11 @@
+{% extends 'master.html' %}
+{% block content %}
+    {% if tblpost %}
+        {% for data in tblpost %}
+            <h3>Title: {{data.title}}</h3>
+            <p>Content: {{data.content}}</p>
+        {% endfor %}
+    {% else %}
+        <p>You have no data!</p>
+    {% endif %}
+{% endblock %}
